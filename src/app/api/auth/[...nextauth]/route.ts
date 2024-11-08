@@ -1,4 +1,4 @@
-import { handlers } from "@/auth";
+import { handlers } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { type NextRequest } from "next/server";
 

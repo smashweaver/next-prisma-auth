@@ -1,6 +1,6 @@
 "use server";
 
-import * as auth from "@/auth";
+import * as auth from "@/lib/auth";
 
 export async function signIn() {
   console.log("*** sign in (github) ***");

@@ -1,9 +1,9 @@
-import { SignInButton } from "@/components/signin-button";
-import { SignOutButton } from "@/components/signout-button";
+import { SignInButton } from "@/components/sign-in.button";
+import { SignOutButton } from "@/components/sign-out.button";
 
 export default function Home() {
   return (
-    <div className="flex gap-1 p-1 justify-end">
+    <div className="flex justify-end gap-1 p-1">
       <SignInButton />
       <SignOutButton />
     </div>
